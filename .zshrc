@@ -8,7 +8,7 @@ ZSH_DISABLE_COMPFIX=true
 
 # THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # PLUGINS
 plugins=(
