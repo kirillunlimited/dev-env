@@ -1,0 +1,15 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
+brew "apktool"
+brew "coreutils"
+brew "cask"
+brew "npm"
+brew "nvm"
+brew "spaceship"
+brew "yarn"
+brew "zsh"
+
+cask "font-fira-code"
