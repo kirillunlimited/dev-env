@@ -3,3 +3,5 @@
 ```
 ./install_macos.sh
 ```
+
+Import "One Dark.itermcolors" theme to iTerm
