@@ -18,11 +18,12 @@ plugins=(
 # ALIASES
 # For a full list of active aliases, run `alias`.
 alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="open ~/.oh-my-zsh"
 alias gitconfig="mate ~/.gitconfig"
 alias history="fc -fl 1"
+alias grhh!='git reset --hard origin/$(current_branch)'
 
-# HISTORY 
+# HISTORY
 SAVEHIST=10000
 HISTSIZE=10000
 
