@@ -1,16 +1,31 @@
+# Install taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Install system dependencies
 brew "apktool"
 brew "coreutils"
-brew "cask"
-brew "lazygit"
+brew "curl"
+brew "git"
 brew "npm"
 brew "nvm"
 brew "spaceship"
+brew "tree"
+brew "vim"
+brew "wget"
 brew "yarn"
 brew "zsh"
 
+# Install GUI applications
+cask "firefox"
 cask "font-fira-code"
+cask "google-chrome"
+cask "iterm2"
+cask "notion"
+cask "slack"
+cask "spark"
+cask "spotify"
+cask "telegram"
+cask "visual-studio-code"
