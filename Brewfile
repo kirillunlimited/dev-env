@@ -28,7 +28,7 @@ cask "notion"
 cask "slack"
 cask "spark"
 cask "spotify"
-cask "telegram"
+cask "telegram-desktop"
 cask "visual-studio-code"
 
 # Mac App Store
