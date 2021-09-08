@@ -15,7 +15,8 @@ brew bundle
 
 # System configs
 echo -e "\n${LIGHTCYAN}📦 Copying dot-config files...${NOCOLOR}"
-cp .gitconfig ~/
-cp .zshrc ~/
+cp .gitconfig ~/ # git config
+cp .zshrc ~/ # zshell config
+cp karabiner.json ~/.config/karabiner # karabiner config
 
 echo -e "\n${LIGHTGREEN}🏁 Installation finished! ${NOCOLOR}"
