@@ -9,7 +9,7 @@ xcode-select --install
 
 # Homebrew
 echo -e "\n${LIGHTCYAN}📦 Installing Homebrew...${NOCOLOR}"
-curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 echo -e "\n${LIGHTCYAN}📦 Installing dependencies from Brewfile...${NOCOLOR}"
 brew bundle
 
