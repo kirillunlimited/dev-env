@@ -20,6 +20,7 @@ brew "yarn"
 brew "zsh"
 
 # Applications
+cask "docker"
 cask "firefox"
 cask "font-fira-code"
 cask "google-chrome"
