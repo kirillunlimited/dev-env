@@ -98,7 +98,7 @@
   "Prompt Before Closing 2" : false,
   "BM Growl" : true,
   "Command" : "",
-  "Description" : "Default",
+  "Description" : "My Profile",
   "Mouse Reporting" : true,
   "Screen" : -1,
   "Selection Color" : {
@@ -334,7 +334,7 @@
     "Green Component" : 0.7137255072593689
   },
   "ASCII Ligatures" : true,
-  "Name" : "Default",
+  "Name" : "My Profile",
   "Cursor Text Color" : {
     "Red Component" : 0.67058825492858887,
     "Color Space" : "sRGB",
