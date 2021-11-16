@@ -22,16 +22,18 @@ alias ohmyzsh="open ~/.oh-my-zsh"
 alias gitconfig="mate ~/.gitconfig"
 alias history="fc -fl 1"
 alias grhh!='git reset --hard origin/$(current_branch)'
+alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
+alias arm="env /usr/bin/arch -arm64 /bin/zsh"
 
 # HISTORY
 SAVEHIST=10000
 HISTSIZE=10000
 
+# Fix Homebrew path for M1
+export PATH=/opt/homebrew/bin:$PATH
+
 # NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
 source $ZSH/oh-my-zsh.sh
-
-export PATH=/opt/homebrew/bin:$PATH # Fix path for M1

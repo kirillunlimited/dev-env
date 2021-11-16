@@ -1,13 +1,46 @@
 # Developer's environment
-
 ## Mac OS
+### XCode
+```
+xcode-select --install
+```
+
+### Configs
+```
+# git
+cp .gitconfig ~/
+
+# zshell
+cp .zshrc ~/
+
+# karabiner
+mkdir -p ~/foo/bar && cp karabiner.json $_
+
+# nvm
+mkdir ~/.nvm
+```
+
+### ZShell
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+```
+source ~/.zshrc # ?
+```
+```
+# install zshell theme (brew not working)
+npm install -g spaceship-zsh-theme
+```
 
 ### Homebrew
-
-- Install dependencies:
-  ```
-  ./install_macos.sh
-  ```
+```
+# Install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+```
+# Install packages
+brew bundle
+```
 
 ### iTerm
 
