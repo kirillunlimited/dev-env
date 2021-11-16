@@ -44,7 +44,8 @@ brew bundle
 
 ### iTerm
 
-- Import "One Dark.itermcolors" theme to iTerm
+- Import "iTerm profile.json" profile
+- Import "One Dark.itermcolors" theme
 
 ### Scroll Reverser
 
