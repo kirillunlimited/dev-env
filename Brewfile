@@ -10,7 +10,7 @@ brew "git"
 brew 'mas'
 brew "npm"
 brew "nvm"
-# brew "spaceship"
+brew "spaceship"
 brew "tree"
 brew "vim"
 brew "wget"

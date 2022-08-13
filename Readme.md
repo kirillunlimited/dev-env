@@ -1,23 +1,37 @@
 # 🧑‍💻 Developer's environment
-## Install packages and configs
-Run `./install.sh` to:
-- Install Xcode
-- Install Oh-my-zsh
-- Copy configs
-- Install Homebrew
-- Install packages from Brewfile
 
-## iTerm
-- Import "iTerm profile.json" profile
-- Import "One Dark.itermcolors" theme
+## Xcode
+```
+xcode-select --install
+```
+
+## Oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## Configs
+```
+cp .zshrc ~/
+source ~/.zshrc
+cp .gitconfig ~/
+mkdir -p ~/.config/karabiner && cp karabiner.json $_
+mkdir ~/.nvm
+```
+
+## Homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew bundle
+```
 
 ## Scroll Reverser
-- Setup Scroll Reverser app to have separate scroll direction for trackpad and mouse:
-  ![Scroll Reverser settings](./img/scroll-reverser-settings.png)
+Setup Scroll Reverser app to have separate scroll direction for trackpad and mouse:
+![Scroll Reverser settings](./img/scroll-reverser-settings.png)
 
 ## Keyboard
-- Setup keyboard's repeat settings:
-  ![Keyboard repeat settings](./img/keyboard-repeat-settings.png)
+Setup keyboard's repeat settings:
+![Keyboard repeat settings](./img/keyboard-repeat-settings.png)
 
 ## VSCode
 1. Sign in via "GitHub" to sync settings
