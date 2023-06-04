@@ -7,6 +7,7 @@ tap "homebrew/core"
 brew "coreutils"
 brew "curl"
 brew "git"
+brew "htop"
 brew 'mas'
 brew "npm"
 brew "nvm"

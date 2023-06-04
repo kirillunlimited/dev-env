@@ -21,7 +21,7 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
 alias gitconfig="mate ~/.gitconfig"
 alias history="fc -fl 1"
-alias grhh!='git reset --hard origin/$(current_branch)'
+alias grhho='git reset --hard origin/$(current_branch)'
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
 alias arm="env /usr/bin/arch -arm64 /bin/zsh"
 
