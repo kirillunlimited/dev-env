@@ -24,10 +24,6 @@ mkdir -p ~/.config/karabiner && cp karabiner.json $_
 mkdir ~/.nvm
 ```
 
-## Iterm
-1. Select Color Scheme
-2. Setup transparency
-
 ## [Homebrew](https://brew.sh)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -36,12 +32,7 @@ brew bundle
 ```
 
 ## [Scroll Reverser](https://pilotmoon.com/scrollreverser/)
-Setup Scroll Reverser app to have separate scroll direction for trackpad and mouse:
-![Scroll Reverser settings](./img/scroll-reverser-settings.png)
-
-## Keyboard
-Setup keyboard's repeat settings:
-![Keyboard repeat settings](./img/keyboard-repeat-settings.png)
+Setup Scroll Reverser app to have separate scroll direction for trackpad and mouse.
 
 ## [VSCode](https://code.visualstudio.com/)
 1. Sign in via "GitHub" to sync settings
@@ -51,4 +42,18 @@ Shell Command: Install 'code' command in PATH
 ```
 
 ## Spark email client
+
 [Install from AppStore](https://apps.apple.com/app/apple-store/id1176895641)
+
+## System
+
+* Setup Dock
+  * Move it to the left
+  * Enable magnification
+  * Disable "Show recent applications in Dock"
+  * Add applications to the Dock
+  * Set "Vivaldi" as a default web browser
+* Setup languages: English is primary, Russian is secondary
+* Setup keyboard: set "Key Repeat" and "Delay Until Repeat" sliders to the very right
+* Add "Developer" folder for coding (it will have a special "hammer" icon)
+* Show scrollbard -> "Always"
