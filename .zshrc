@@ -24,9 +24,9 @@ plugins=(
 
 # ALIASES
 # For a full list of active aliases, run `alias`.
-alias zshconfig="mate ~/.zshrc"
+alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
-alias gitconfig="mate ~/.gitconfig"
+alias gitconfig="subl ~/.gitconfig"
 alias history="fc -fl 1"
 alias grhho='git reset --hard origin/$(current_branch)'
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
