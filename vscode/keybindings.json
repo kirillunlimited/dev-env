@@ -1,0 +1,60 @@
+[
+  /* Workbench */
+  { "key": "cmd+s", "command": "workbench.action.files.saveFiles" },
+  { "key": "ctrl+alt+cmd+p", "command": "workbench.action.openRecent" },
+
+  /* Terminal */
+  { "key": "cmd+r i", "command": "yarn-script.installPackages" },
+  { "key": "cmd+r r", "command": "yarn-script.runScript" },
+  { "key": "cmd+r shift+r", "command": "yarn-script.runScriptLast" },
+  { "key": "shift+cmd+i", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "shift+cmd+i",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+
+  /* Git */
+  /* Navigation */
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  { "key": "shift+cmd+space space", "command": "git.checkout" },
+
+  /* Branch */
+  { "key": "shift+cmd+space n", "command": "git.branch" },
+  { "key": "shift+cmd+space backspace", "command": "git.renameBranch" },
+  { "key": "shift+cmd+space shift+backspace", "command": "git.deleteBranch" },
+
+  /* Update */
+  { "key": "shift+cmd+space enter", "command": "git.push" },
+  { "key": "shift+cmd+space shift+enter", "command": "git.pushForce" },
+  { "key": "shift+cmd+space u", "command": "git.syncRebase" },
+  {
+    "key": "shift+cmd+space d",
+    "command": "git.clean"
+  },
+  {
+    "key": "shift+cmd+space p",
+    "command": "git.pullRebase"
+  },
+
+  /* Merge/rebase */
+  { "key": "shift+cmd+space m", "command": "git.merge" },
+  { "key": "shift+cmd+space r", "command": "gitlens.gitCommands.rebase" },
+  { "key": "shift+cmd+space shift+r", "command": "git.rebaseAbort" },
+  { "key": "shift+cmd+space c", "command": "gitlens.gitCommands.cherryPick" },
+
+  /* History */
+  { "key": "shift+cmd+space h", "command": "git.viewHistory" },
+  { "key": "shift+cmd+space l", "command": "git.viewLineHistory" },
+  { "key": "shift+cmd+space f", "command": "git.viewFileHistory" },
+  { "key": "shift+cmd+space o", "command": "git.openFile" },
+  {
+    "key": "shift+cmd+space b",
+    "command": "gitlens.toggleFileBlame",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+
+  "window.autoDetectColorScheme": true,
+
+  "editor.smoothScrolling": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.autoIndent": "advanced",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+
+  "git.autofetch": true,
+  "git.allowForcePush": true,
+  "git.confirmSync": false,
+  "git.rebaseWhenSync": true,
+  "git.showPushSuccessNotification": true,
+  "git.pullTags": false,
+  "git.useForcePushWithLease": false,
+  "git.mergeEditor": true,
+
+  "gitlens.views.branches.files.layout": "tree",
+  "gitlens.defaultGravatarsStyle": "identicon",
+
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "chat.disableAIFeatures": true,
+  "editor.formatOnSave": true
+}
